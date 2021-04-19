@@ -44,7 +44,7 @@ export const Calculator: FunctionComponent = () => {
 
 
     setResult(newResult)
-    setDisplay(newResult.toString().toString().slice(0, 24))
+    setDisplay(newResult.toString().toString().slice(0, 20))
 
     return true
   }
@@ -54,7 +54,7 @@ export const Calculator: FunctionComponent = () => {
     let newDisplay = display
  
 
-    if ((display === '0' && digit === 0) || display.length > 24) {
+    if ((display === '0' && digit === 0) || display.length > 20) {
       return
     }
     
