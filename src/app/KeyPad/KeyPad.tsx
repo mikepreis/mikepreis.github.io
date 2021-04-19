@@ -94,7 +94,7 @@ export const KeyPad: FunctionComponent<PadProps> = ({
    
       </Button>
       <Button  onClick={onAllClearButtonClick}>
-        
+        CLR ALL
       </Button>
       <Button >
         GEAR
